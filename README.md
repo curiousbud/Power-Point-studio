@@ -1,8 +1,11 @@
-# Slide Coordinate Studio 
+# Slide Coordinate Studio — Detailed Usage README
+
+![Slide Coordinate Studio — illustration of a visual slide editor and Python/JavaScript exports](assets/readme-banner.png)
 
 **Version:** 1.0  
 **Purpose:** Arrange slide elements visually, then use their coordinates in PowerPoint automation scripts.
 
+This guide explains the tool delivered in `Slide_Coordinate_Studio.zip`. The usage instructions can be read separately from the project folder. For the GitHub banner to display, keep `assets/readme-banner.png` beside this README using the same folder structure.
 
 ## Contents
 
@@ -1176,3 +1179,10 @@ For repeated presentation automation:
 10. Adjust any font/wrapping differences and save a revised layout.
 
 You can reuse the same layout for different event titles, speaker names or images. Keep the geometry template in JSON and change content in your script when the positions stay the same.
+
+
+## README banner asset
+
+The banner is a conceptual product illustration, not a screenshot of the running editor. It was generated with the built-in image generator. Its source prompt is included in `assets/readme-banner-prompt.md`.
+
+To publish this README on GitHub, place `README.md` at the repository root and upload `assets/readme-banner.png` into the repository’s `assets` folder. The image reference uses a relative path; no external image host is needed.
